@@ -1,0 +1,10 @@
+---
+- hosts: mysql
+  roles:
+    - /vagrant/src/roles/mysql
+
+- hosts: wordpress
+
+  roles:
+    - /vagrant/src/roles/wordpress
+  
