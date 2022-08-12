@@ -16,8 +16,8 @@ vagrant ssh ansible
 ```
 
 rode o ansible e ele ja ira instalar e consfigurar para voce
-'''
+```
 ansible-playbook -i /vagrant/configs/ansible/hosts /vagrant/configs/provisioning.yml
-'''
+```
 
 acesse atravez do navegador o ip: 192.168.1.24
